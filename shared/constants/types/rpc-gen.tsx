@@ -2281,6 +2281,7 @@ export enum StatusCode {
   scwrongcryptoformat = 279,
   scdecryptionerror = 280,
   scinvalidaddress = 281,
+  scwrongcryptomsgtype = 282,
   scnosession = 283,
   scaccountreset = 290,
   scidentifiesfailed = 295,
@@ -2490,8 +2491,6 @@ export enum StatusCode {
   scteambotkeygenerationexists = 3800,
   scteambotkeyoldboxedgeneration = 3801,
   scteambotkeybadgeneration = 3802,
-  scinvalidformat = 4000,
-  scwrongtype = 4001,
   scairdropregisterfailedmisc = 4207,
 }
 
